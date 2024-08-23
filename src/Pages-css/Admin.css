@@ -1,0 +1,21 @@
+.admin-main{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    position: fixed;
+    
+}
+
+.admin-content{
+    height: 400px;
+    width: 80%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: blueviolet;
+   margin-top: 5%;
+   margin-left: 6%;
+   border: solid;
+   border-radius: 20px;
+    padding: 60px;
+}

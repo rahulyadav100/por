@@ -1,0 +1,65 @@
+.project-main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(2, 3, 3);
+    position: fixed;
+}
+.project-body{
+    /* background-color: rgb(221, 188, 40); */
+    height: 700px;
+    width: 1600px;
+    padding: 30px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.project-body-content{
+    height: auto;
+    width: 30%;
+    align-items: center;
+    /* background-color: blueviolet; */
+    border: solid whitesmoke;
+    border-radius: 20px;
+   
+}
+.project-body-content-head{
+    /* background-color: beige; */
+    text-align: center;
+    color: gray;
+}
+.project-body-content-img{
+    height: 200px;
+    
+}
+.project-body-content-description1 h1{
+font-size: large;
+text-align: center;
+/* color: gray; */
+
+
+}
+.project-body-content-description1{
+    border: solid  whitesmoke;
+    padding: 20px;
+    color: gray;
+    border-radius: 20px;
+}
+/* .project-body-content-description1 h1:hover{
+    color: aqua;
+} */
+.project-body-content-description1:hover{
+    color: aqua;
+}
+
+
+.project-body-content-img{
+    height: 200px;
+    border: solid whitesmoke;
+    border-radius: 0px 0px 20px 20px;
+}
+.project-body-content-img iframe{
+  
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    
+}
